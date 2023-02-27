@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-big {
+    background: url('https://www.datocms-assets.com/34299/1673547398-h9-hero-test-primary-lg.png?auto=format&fit=max&ixlib=react-9.5.4&w=768&h=642&dpr=1&q=75') #d7e0f1;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.banner {
+    background: url('https://www.datocms-assets.com/34299/1673547398-h9-hero-test-primary-lg.png?auto=format&fit=max&ixlib=react-9.5.4&w=768&h=642&dpr=1&q=75') #d7e0f1;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.banner-small {
+    background: url('https://www.datocms-assets.com/34299/1673547398-h9-hero-test-primary-lg.png?auto=format&fit=max&ixlib=react-9.5.4&w=768&h=642&dpr=1&q=75') #d7e0f1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
