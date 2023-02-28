@@ -27,3 +27,31 @@
     background-repeat: no-repeat;
     background-position: bottom center;
 }
+
+.jd-bg {
+    background: url('https://nzxt.com/assets/cms/34299/1672872272-nvidia-4070ti-banner-dark-primary-m.png?auto=format&fit=max&h=550&w=384');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.jd-bg-mobile {
+    background: url('https://nzxt.com/assets/cms/34299/1672872272-nvidia-4070ti-banner-dark-primary-m.png?auto=format&fit=max&h=550&w=384');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.gaming-gradient {
+    background-image: linear-gradient(#1c1d1f 40% , #243f20);
+}
+
+.streaming-gradient {
+    background-image: linear-gradient(#1c1d1f 40% , #20474f);
+}
+
+.creator-gradient {
+    background-image: linear-gradient(#1c1d1f 40% , #341a3d);
+}
+
+/* 120% */

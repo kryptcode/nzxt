@@ -3,7 +3,7 @@ import {CartIcon, HelpIcon, MenuIcon, SearchIcon, UserIcon} from './icons'
 
 const Header = () => {
   return (
-    <div className='md:bg-[#313235] md:text-white py-3'>
+    <div className='md:bg-[#313235] md:text-white py-3 sticky top-0 backdrop-blur-md bg-white/50'>
       <div className='w-[90%] mx-auto flex justify-between items-center space-x-3 '>
         
         <div className='text-2xl items-center flex space-x-4 font-black'>
